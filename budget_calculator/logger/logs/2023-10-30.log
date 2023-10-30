@@ -9892,3 +9892,1749 @@
 [INFO] 2023-10-30 09:36:55,220: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
 [INFO] 2023-10-30 09:36:55,220: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
 [INFO] 2023-10-30 09:36:55,220: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,481: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:22,484: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Match @ 156
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,525: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,526: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,526: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,526: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,526: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,526: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:22,559: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,559: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:22,591: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Match @ 314
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Match @ 59
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.clean_payment_entry  [59]
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '546.55', '-', '024'] @ 59
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Match @ 50
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '232.98', '-', '032'] @ 115
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.find  Match @ 82
+[INFO] 2023-10-30 09:58:22,592: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '446.75', '-', '044'] @ 203
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.find  Match @ 57
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '762.54', '-', '053'] @ 266
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,593: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Match @ 197
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.clean_usdpurchase_entry  [197]
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,594: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,595: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:22,598: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,611: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:22,612: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.find  Match @ 153
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.find  Match @ 31
+[INFO] 2023-10-30 09:58:22,650: vsa_statement_reader.py.clean_payment_entry  [31]
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '103.22', '-', '006'] @ 31
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Match @ 43
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '274.71', '-', '013'] @ 80
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,651: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,652: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,652: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,652: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,652: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:22,684: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,685: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:22,705: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:22,705: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:22,705: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:22,705: vsa_statement_reader.py.find  Match @ 171
+[INFO] 2023-10-30 09:58:22,705: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Match @ 115
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.clean_payment_entry  [115]
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '476.22', '-', '031'] @ 115
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,706: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,707: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:22,707: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,716: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:22,716: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Match @ 156
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,753: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,754: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,754: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,754: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:22,790: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,790: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:22,827: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:22,827: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:22,827: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Match @ 338
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Match @ 3
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.clean_payment_entry  [3]
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '200.00', '-', '016'] @ 3
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Match @ 50
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '256.47', '-', '024'] @ 59
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Match @ 92
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '455.06', '-', '038'] @ 157
+[INFO] 2023-10-30 09:58:22,828: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Match @ 127
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '396.16', '-', '057'] @ 290
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,829: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:22,833: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,838: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:22,839: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.find  Match @ 158
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 09:58:22,873: vsa_statement_reader.py.clean_payment_entry  [66]
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '555.00', '-', '011'] @ 66
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,874: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:22,906: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,906: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.find  Match @ 305
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.clean_payment_entry  [66]
+[INFO] 2023-10-30 09:58:22,937: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '500.00', '-', '025'] @ 66
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Match @ 122
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '559.27', '-', '043'] @ 194
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '222.80', '-', '053'] @ 266
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Match @ 118
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.clean_applepay  [118]
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,938: vsa_statement_reader.py.find  Match @ 119
+[INFO] 2023-10-30 09:58:22,939: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,939: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,939: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:22,943: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:22,946: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:22,946: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:22,982: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:22,982: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:22,982: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:22,982: vsa_statement_reader.py.find  Match @ 158
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Match @ 52
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.clean_payment_entry  [52]
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '420.39', '-', '009'] @ 52
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:22,983: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:23,014: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,014: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:23,078: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,078: vsa_statement_reader.py.find  Match @ 15
+[INFO] 2023-10-30 09:58:23,078: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,078: vsa_statement_reader.py.find  Look for SBVREP_10100_D23121_A - 0037233    HRI - - 2 - 2 - 27 - 4-    132151
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Match @ 377
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Match @ 94
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.clean_payment_entry  [94]
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '700.00', '-', '029'] @ 94
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Match @ 99
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '586.10', '-', '044'] @ 199
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,079: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,080: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,080: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.find  Match @ 95
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.find  Match @ 24
+[INFO] 2023-10-30 09:58:23,096: vsa_statement_reader.py.clean_payment_entry  [24]
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '261.00', '-', '069'] @ 24
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Match @ 36
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '400.00', '-'] @ 66
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,097: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,103: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:23,103: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.find  Match @ 153
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.find  Match @ 82
+[INFO] 2023-10-30 09:58:23,136: vsa_statement_reader.py.clean_payment_entry  [82]
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '391.98', '-', '013'] @ 82
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Match @ 10
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.clean_creditvoucher  [10]
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,137: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:23,169: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,169: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:23,205: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,205: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:23,205: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,205: vsa_statement_reader.py.find  Match @ 367
+[INFO] 2023-10-30 09:58:23,205: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Match @ 114
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.clean_payment_entry  [114]
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '700.00', '-', '026'] @ 114
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Match @ 89
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '620.30', '-', '037'] @ 209
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '471.88', '-'] @ 335
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Match @ 15
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.clean_usdpurchase_entry  [15]
+[INFO] 2023-10-30 09:58:23,206: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,207: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 11
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.clean_mntview  [11]
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 27
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Match @ 26
+[INFO] 2023-10-30 09:58:23,208: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Match @ 27
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Match @ 60
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.clean_santaclara  [60]
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Match @ 116
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.clean_denver  [116]
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,209: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:23,214: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,220: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:23,220: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:23,254: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:23,254: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 09:58:23,254: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Match @ 154
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Match @ 43
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.clean_usdpurchase_entry  [43]
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,255: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:23,289: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,289: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:23,319: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,319: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:23,319: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,319: vsa_statement_reader.py.find  Match @ 298
+[INFO] 2023-10-30 09:58:23,319: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,320: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,320: vsa_statement_reader.py.find  Match @ 58
+[INFO] 2023-10-30 09:58:23,320: vsa_statement_reader.py.clean_payment_entry  [58]
+[INFO] 2023-10-30 09:58:23,322: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '644.71', '-', '022'] @ 58
+[INFO] 2023-10-30 09:58:23,322: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,322: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '479.69', '-', '040'] @ 184
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Match @ 45
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.clean_boardgamearena_entry  [45]
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,323: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,324: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,324: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,324: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:23,331: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,337: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:23,337: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:23,376: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:23,377: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 09:58:23,377: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:23,377: vsa_statement_reader.py.find  Match @ 212
+[INFO] 2023-10-30 09:58:23,377: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,377: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,377: vsa_statement_reader.py.find  Match @ 87
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.clean_payment_entry  [87]
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '412.59', '-', '014'] @ 87
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.find  Match @ 129
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.clean_boardgamearena_entry  [129]
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,378: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,379: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,379: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,379: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,379: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,379: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:23,412: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,413: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:23,430: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,430: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:23,430: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Match @ 145
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Match @ 3
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.clean_payment_entry  [3]
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '353.25', '-', '025'] @ 3
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Match @ 92
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '252.97', '-', '039'] @ 101
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,431: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,432: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,432: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,432: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,432: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:23,434: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,440: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:23,440: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:23,480: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Match @ 210
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Match @ 122
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.clean_payment_entry  [122]
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '384.40', '-', '017'] @ 122
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Match @ 106
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.clean_boardgamearena_entry  [106]
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.find  Match @ 78
+[INFO] 2023-10-30 09:58:23,481: vsa_statement_reader.py.clean_usdpurchase_entry  [78]
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Match @ 12
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Match @ 34
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Match @ 102
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.clean_mntview  [102]
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Match @ 34
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,482: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,483: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,483: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:23,513: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,514: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:23,529: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Match @ 36
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.clean_payment_entry  [36]
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '396.14', '-', '025'] @ 36
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Match @ 8
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.clean_usdpurchase_entry  [8]
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,530: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Match @ 11
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.clean_mntview  [11]
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,531: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:23,532: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,538: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 09:58:23,538: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 09:58:23,578: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Match @ 212
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Match @ 101
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.clean_payment_entry  [101]
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '503.88', '-', '016'] @ 101
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.find  Match @ 129
+[INFO] 2023-10-30 09:58:23,579: vsa_statement_reader.py.clean_boardgamearena_entry  [129]
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,580: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 09:58:23,611: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 09:58:23,611: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Match @ 215
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Match @ 45
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.clean_payment_entry  [45]
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '324.83', '-', '031'] @ 45
+[INFO] 2023-10-30 09:58:23,636: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Match @ 134
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '620.00', '-'] @ 185
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 09:58:23,637: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 09:58:23,638: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:57,696: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:57,698: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Match @ 156
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:57,740: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:57,741: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:57,741: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:57,775: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:57,775: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.find  Match @ 314
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.find  Match @ 59
+[INFO] 2023-10-30 10:03:57,807: vsa_statement_reader.py.clean_payment_entry  [59]
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '546.55', '-', '024'] @ 59
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Match @ 50
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '232.98', '-', '032'] @ 115
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Match @ 82
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '446.75', '-', '044'] @ 203
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Match @ 57
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '762.54', '-', '053'] @ 266
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:57,808: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Match @ 197
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.clean_usdpurchase_entry  [197]
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:57,809: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:57,812: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:57,827: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:57,827: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.find  Match @ 153
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.find  Match @ 31
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.clean_payment_entry  [31]
+[INFO] 2023-10-30 10:03:57,866: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '103.22', '-', '006'] @ 31
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Match @ 43
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '274.71', '-', '013'] @ 80
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:57,867: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:57,899: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:57,899: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:57,919: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:57,919: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:57,919: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:57,919: vsa_statement_reader.py.find  Match @ 171
+[INFO] 2023-10-30 10:03:57,919: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Match @ 115
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.clean_payment_entry  [115]
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '476.22', '-', '031'] @ 115
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:57,920: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:57,921: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:57,934: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:57,935: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:57,972: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:57,972: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Match @ 156
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:57,973: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:57,974: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:57,974: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:57,974: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,005: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,005: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,039: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,039: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,039: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,039: vsa_statement_reader.py.find  Match @ 338
+[INFO] 2023-10-30 10:03:58,039: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Match @ 3
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.clean_payment_entry  [3]
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '200.00', '-', '016'] @ 3
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Match @ 50
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '256.47', '-', '024'] @ 59
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Match @ 92
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '455.06', '-', '038'] @ 157
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Match @ 127
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '396.16', '-', '057'] @ 290
+[INFO] 2023-10-30 10:03:58,040: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,041: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,045: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,051: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,051: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Match @ 158
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.clean_payment_entry  [66]
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '555.00', '-', '011'] @ 66
+[INFO] 2023-10-30 10:03:58,087: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,088: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,120: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,120: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,150: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,150: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,150: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,150: vsa_statement_reader.py.find  Match @ 305
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.clean_payment_entry  [66]
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '500.00', '-', '025'] @ 66
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Match @ 122
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '559.27', '-', '043'] @ 194
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '222.80', '-', '053'] @ 266
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,151: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Match @ 118
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.clean_applepay  [118]
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Match @ 119
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,152: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,156: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,159: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,159: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,199: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,199: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:58,199: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,199: vsa_statement_reader.py.find  Match @ 158
+[INFO] 2023-10-30 10:03:58,199: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Match @ 52
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.clean_payment_entry  [52]
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '420.39', '-', '009'] @ 52
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,200: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,201: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,233: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,233: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,294: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,294: vsa_statement_reader.py.find  Match @ 15
+[INFO] 2023-10-30 10:03:58,294: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,294: vsa_statement_reader.py.find  Look for SBVREP_10100_D23121_A - 0037233    HRI - - 2 - 2 - 27 - 4-    132151
+[INFO] 2023-10-30 10:03:58,294: vsa_statement_reader.py.find  Match @ 377
+[INFO] 2023-10-30 10:03:58,294: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Match @ 94
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.clean_payment_entry  [94]
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '700.00', '-', '029'] @ 94
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Match @ 99
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '586.10', '-', '044'] @ 199
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,295: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,296: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,296: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Match @ 95
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Match @ 24
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.clean_payment_entry  [24]
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '261.00', '-', '069'] @ 24
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,312: vsa_statement_reader.py.find  Match @ 36
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '400.00', '-'] @ 66
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,313: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,320: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,320: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,354: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,354: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:58,354: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,354: vsa_statement_reader.py.find  Match @ 153
+[INFO] 2023-10-30 10:03:58,354: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Match @ 82
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.clean_payment_entry  [82]
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '391.98', '-', '013'] @ 82
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Match @ 10
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.clean_creditvoucher  [10]
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,355: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,387: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,387: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.find  Match @ 367
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.find  Match @ 114
+[INFO] 2023-10-30 10:03:58,424: vsa_statement_reader.py.clean_payment_entry  [114]
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '700.00', '-', '026'] @ 114
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Match @ 89
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '620.30', '-', '037'] @ 209
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '471.88', '-'] @ 335
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Match @ 15
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.clean_usdpurchase_entry  [15]
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,425: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:03:58,426: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 11
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.clean_mntview  [11]
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 27
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 26
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 27
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.find  Match @ 60
+[INFO] 2023-10-30 10:03:58,427: vsa_statement_reader.py.clean_santaclara  [60]
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Match @ 116
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.clean_denver  [116]
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,428: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,433: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,443: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,443: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Match @ 154
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Match @ 43
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.clean_usdpurchase_entry  [43]
+[INFO] 2023-10-30 10:03:58,480: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,481: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,514: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,514: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,543: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,543: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Match @ 298
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Match @ 58
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.clean_payment_entry  [58]
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '644.71', '-', '022'] @ 58
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '479.69', '-', '040'] @ 184
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Match @ 45
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.clean_boardgamearena_entry  [45]
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,544: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,545: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,545: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,545: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,545: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,549: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,556: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,556: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Match @ 212
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Match @ 87
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.clean_payment_entry  [87]
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '412.59', '-', '014'] @ 87
+[INFO] 2023-10-30 10:03:58,595: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Match @ 129
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.clean_boardgamearena_entry  [129]
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,596: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,628: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,628: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.find  Match @ 145
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.find  Match @ 3
+[INFO] 2023-10-30 10:03:58,647: vsa_statement_reader.py.clean_payment_entry  [3]
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '353.25', '-', '025'] @ 3
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Match @ 92
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '252.97', '-', '039'] @ 101
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,648: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,651: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,658: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,658: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,697: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,697: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Match @ 210
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Match @ 122
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.clean_payment_entry  [122]
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '384.40', '-', '017'] @ 122
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Match @ 106
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.clean_boardgamearena_entry  [106]
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Match @ 78
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.clean_usdpurchase_entry  [78]
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,698: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Match @ 12
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Match @ 34
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Match @ 102
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.clean_mntview  [102]
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Match @ 34
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,699: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,700: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,700: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,730: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,730: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Match @ 36
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.clean_payment_entry  [36]
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '396.14', '-', '025'] @ 36
+[INFO] 2023-10-30 10:03:58,747: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Match @ 8
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.clean_usdpurchase_entry  [8]
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Match @ 11
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.clean_mntview  [11]
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,748: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,749: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,749: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,750: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,756: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:03:58,757: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:03:58,796: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:03:58,796: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 10:03:58,796: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:03:58,796: vsa_statement_reader.py.find  Match @ 212
+[INFO] 2023-10-30 10:03:58,796: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,796: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Match @ 101
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.clean_payment_entry  [101]
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '503.88', '-', '016'] @ 101
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Match @ 129
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.clean_boardgamearena_entry  [129]
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,797: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:03:58,829: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:03:58,829: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.find  Match @ 215
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.find  Match @ 45
+[INFO] 2023-10-30 10:03:58,854: vsa_statement_reader.py.clean_payment_entry  [45]
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '324.83', '-', '031'] @ 45
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Match @ 134
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '620.00', '-'] @ 185
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:03:58,855: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:03:58,856: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:00,855: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:00,855: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Match @ 156
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:00,892: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:00,925: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:00,925: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:00,957: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:00,957: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:00,957: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Match @ 314
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Match @ 59
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.clean_payment_entry  [59]
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '546.55', '-', '024'] @ 59
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Match @ 50
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '232.98', '-', '032'] @ 115
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Match @ 82
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '446.75', '-', '044'] @ 203
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Match @ 57
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '762.54', '-', '053'] @ 266
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:00,958: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Match @ 197
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.clean_usdpurchase_entry  [197]
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:00,959: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:00,962: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:00,965: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:00,965: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.find  Match @ 153
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.find  Match @ 31
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.clean_payment_entry  [31]
+[INFO] 2023-10-30 10:05:01,002: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '103.22', '-', '006'] @ 31
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Match @ 43
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '274.71', '-', '013'] @ 80
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,003: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,004: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,004: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,004: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,004: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,034: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,035: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Match @ 171
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Match @ 115
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.clean_payment_entry  [115]
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '476.22', '-', '031'] @ 115
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,055: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,056: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,056: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,056: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,056: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,056: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,057: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,059: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,059: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,095: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,095: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:01,095: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Match @ 156
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,096: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,127: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,127: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,161: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Match @ 338
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Match @ 3
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.clean_payment_entry  [3]
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '200.00', '-', '016'] @ 3
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Match @ 50
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '256.47', '-', '024'] @ 59
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Match @ 92
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '455.06', '-', '038'] @ 157
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,162: vsa_statement_reader.py.find  Match @ 127
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '396.16', '-', '057'] @ 290
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,163: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,167: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,170: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,171: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,208: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,208: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Match @ 158
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.clean_payment_entry  [66]
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '555.00', '-', '011'] @ 66
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,209: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,244: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,244: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,276: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,276: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,276: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,276: vsa_statement_reader.py.find  Match @ 305
+[INFO] 2023-10-30 10:05:01,276: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.clean_payment_entry  [66]
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '500.00', '-', '025'] @ 66
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Match @ 122
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '559.27', '-', '043'] @ 194
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Match @ 66
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '222.80', '-', '053'] @ 266
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,277: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Match @ 118
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.clean_applepay  [118]
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Match @ 119
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,278: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,283: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,285: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,286: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Match @ 158
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Match @ 52
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.clean_payment_entry  [52]
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '420.39', '-', '009'] @ 52
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,320: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,321: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,321: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,321: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,321: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,321: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,321: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,352: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,352: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,421: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Match @ 15
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Look for SBVREP_10100_D23121_A - 0037233    HRI - - 2 - 2 - 27 - 4-    132151
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Match @ 377
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Match @ 94
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.clean_payment_entry  [94]
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '700.00', '-', '029'] @ 94
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Match @ 99
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '586.10', '-', '044'] @ 199
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,422: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,423: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,444: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,444: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:05:01,444: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,444: vsa_statement_reader.py.find  Match @ 95
+[INFO] 2023-10-30 10:05:01,444: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Match @ 24
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.clean_payment_entry  [24]
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '261.00', '-', '069'] @ 24
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Match @ 36
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '400.00', '-'] @ 66
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,445: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,446: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,446: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,446: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,446: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,449: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,449: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,493: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,493: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Match @ 153
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Match @ 82
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.clean_payment_entry  [82]
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '391.98', '-', '013'] @ 82
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.find  Match @ 10
+[INFO] 2023-10-30 10:05:01,494: vsa_statement_reader.py.clean_creditvoucher  [10]
+[INFO] 2023-10-30 10:05:01,495: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,495: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,526: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,527: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Match @ 367
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Match @ 114
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.clean_payment_entry  [114]
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '700.00', '-', '026'] @ 114
+[INFO] 2023-10-30 10:05:01,563: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Match @ 89
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '620.30', '-', '037'] @ 209
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '471.88', '-'] @ 335
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Match @ 15
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.clean_usdpurchase_entry  [15]
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,564: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 13
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Match @ 5
+[INFO] 2023-10-30 10:05:01,565: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 11
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.clean_mntview  [11]
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 27
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 26
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 27
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 60
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.clean_santaclara  [60]
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,566: vsa_statement_reader.py.find  Match @ 116
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.clean_denver  [116]
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,567: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,573: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,575: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,575: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Match @ 46
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Match @ 154
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,609: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Match @ 43
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.clean_usdpurchase_entry  [43]
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,610: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,641: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,641: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,670: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,670: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,670: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.find  Match @ 298
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.find  Match @ 58
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.clean_payment_entry  [58]
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '644.71', '-', '022'] @ 58
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 10:05:01,671: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '479.69', '-', '040'] @ 184
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Match @ 45
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.clean_boardgamearena_entry  [45]
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,672: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,676: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,679: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,679: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Match @ 212
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Match @ 87
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.clean_payment_entry  [87]
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '412.59', '-', '014'] @ 87
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,719: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Match @ 129
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.clean_boardgamearena_entry  [129]
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,720: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,751: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,752: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,769: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,769: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Match @ 145
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Match @ 3
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.clean_payment_entry  [3]
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '353.25', '-', '025'] @ 3
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Match @ 92
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '252.97', '-', '039'] @ 101
+[INFO] 2023-10-30 10:05:01,770: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,771: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,774: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,777: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,777: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,818: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Match @ 210
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Match @ 122
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.clean_payment_entry  [122]
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '384.40', '-', '017'] @ 122
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,819: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 106
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.clean_boardgamearena_entry  [106]
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 78
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.clean_usdpurchase_entry  [78]
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 12
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 34
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,820: vsa_statement_reader.py.find  Match @ 102
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.clean_mntview  [102]
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Match @ 34
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,821: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,856: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,857: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,873: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,873: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Match @ 120
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Match @ 36
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.clean_payment_entry  [36]
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '396.14', '-', '025'] @ 36
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Match @ 8
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.clean_usdpurchase_entry  [8]
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,874: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Match @ 11
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.clean_mntview  [11]
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Match @ 6
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,875: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,876: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,880: vsa_statement_reader.py.tabulate_scotiabank_estatement  Number of pages 4
+[INFO] 2023-10-30 10:05:01,880: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#0
+[INFO] 2023-10-30 10:05:01,920: vsa_statement_reader.py.find  Look for Transactions since your last statement
+[INFO] 2023-10-30 10:05:01,920: vsa_statement_reader.py.find  Match @ 38
+[INFO] 2023-10-30 10:05:01,920: vsa_statement_reader.py.find  Look for If you have any questions about this
+[INFO] 2023-10-30 10:05:01,920: vsa_statement_reader.py.find  Match @ 212
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Match @ 101
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.clean_payment_entry  [101]
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '503.88', '-', '016'] @ 101
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Match @ 129
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.clean_boardgamearena_entry  [129]
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,921: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#1
+[INFO] 2023-10-30 10:05:01,953: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
+[INFO] 2023-10-30 10:05:01,954: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#2
+[INFO] 2023-10-30 10:05:01,979: vsa_statement_reader.py.find  Look for Transactions - continued
+[INFO] 2023-10-30 10:05:01,979: vsa_statement_reader.py.find  Match @ 14
+[INFO] 2023-10-30 10:05:01,979: vsa_statement_reader.py.find  Look for SUB-TOTAL CREDITS
+[INFO] 2023-10-30 10:05:01,979: vsa_statement_reader.py.find  Match @ 215
+[INFO] 2023-10-30 10:05:01,979: vsa_statement_reader.py.create_transactions_table  
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Match @ 45
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.clean_payment_entry  [45]
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '324.83', '-', '031'] @ 45
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Match @ 134
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.clean_payment_entry  ['MB-CREDIT CARD/LOC PAY.', 'FROM -', '*****04*', '7021', '620.00', '-'] @ 185
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for MB-CREDIT CARD/LOC PAY.
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for BOARDGAMEARENA
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.clean_boardgamearena_entry  []
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for ED STATES DOL
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for MOUNTAIN VIEW
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for SANTA CLARA
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for DENVER
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for (APPLE
+[INFO] 2023-10-30 10:05:01,980: vsa_statement_reader.py.find  Look for CREDIT VOUCHER/RETURN
+[INFO] 2023-10-30 10:05:01,981: vsa_statement_reader.py.tabulate_scotiabank_estatement  Page#3
+[INFO] 2023-10-30 10:05:01,981: vsa_statement_reader.py.tabulate_scotiabank_estatement  Does not contain a transactions table
