@@ -8,3 +8,4 @@ __pychache__/
 .pytest_cache/
 */.pytest_cache/
 */*.pyc
+*.pyc

@@ -276,6 +276,7 @@ def create_transactions_table(transactions):
 
 ######################################################################
 def tabulate_scotiabank_estatement(filepath):
+
   reader = PyPDF2.PdfReader(filepath)
   statement_transactions = [['TRANSACTION #', 'TRANS DATE', 'POSTED DATE', 'WHO', 'CITY', 'PROV/STATE', 'AMT']]
   # print("# of pages",len(reader.pages))
@@ -312,6 +313,7 @@ def tabulate_scotiabank_estatement(filepath):
     else:
       vsa.logger.info(f"Does not contain a transactions table")
       # print("Does not contain a transactions table")
+
   return statement_transactions
 
 
