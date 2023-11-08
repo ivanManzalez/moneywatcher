@@ -9,3 +9,4 @@ __pychache__/
 */.pytest_cache/
 */*.pyc
 *.pyc
+
