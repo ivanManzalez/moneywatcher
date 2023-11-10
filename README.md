@@ -19,8 +19,11 @@ MoneyWatcher is a tool designed to personalize the categorization and sub-catego
 
 *MoneyWatch currently only supports Scotiabank Visa Statements*
 
-**Spending Categorization**
+**Spending By Categorization** (What can I say, I'm a hungry guy ¯\\_(ツ)_/¯)
 ![Project Logo](media/expenses.png)
 
-**Spending Sub-Categorization**
+**Spending By Sub-Categorization** 
 ![Project Logo](media/expenses_sub.png)
+
+**Total Spending By Categories** 
+![Project Logo](media/total_spending.png)
