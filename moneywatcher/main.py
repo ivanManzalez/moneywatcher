@@ -26,7 +26,7 @@ def portions_and_labels(categorized_data, multi_col=False):
   if(multi_col):
     labels = labels.map(lambda x: '-'.join(map(str, x)))
   
-  return portions, labels
+  return labels, portions
 
 def series_to_df(series_df):
   df_expenses = pd.DataFrame(series_df).transpose()
@@ -55,28 +55,30 @@ def categorize_ind_month(year, months, data_directory):
   # Monthly Portion of Expenses
   print("\n### SQUASH DATA ###")
   creditors_series = squash_amts_by("WHO", creditor_types[["WHO", "AMT"]])
-  creditors_series["End_Date"] = last_date
-  
   expense_types_series = squash_amts_by("expense_type", creditor_types[["expense_type", "AMT"]])
-  expense_types_series["End_Date"] = last_date
-  
   expense_subtypes_series = squash_amts_by(["expense_type","expense_subtype"], creditor_types[["expense_type","expense_subtype", "AMT"]])
-  expense_subtypes_series["End_Date"] = last_date
-  
-  creditors_df = series_to_df(creditors_series)
-  expense_types_df = series_to_df(expense_types_series)
-  expense_subtypes_df = series_to_df(expense_subtypes_series)
-
 
   # Display Monthly Portion of Expenses
-  # print("\n### DISPLAY DATA ###")
-  # display_pie(labels=creditor_labels, portions=creditor_portions, title=f"{first_date} to {last_date[4:]} -  Creditor $")
-  # display_pie(labels=expense_type_labels, portions=expense_type_portions, title=f"{first_date} to {last_date[4:]} -  Expense Types $")
-  # display_pie(labels=expense_subtype_labels, portions=expense_subtype_portions, title=f"{first_date} to {last_date[4:]} - Expense Subtypes $")
+  print("\n### DISPLAY DATA ###")
+  creditor_labels, creditor_portions = portions_and_labels(creditors_series)
+  expense_type_labels, expense_type_portions = portions_and_labels(expense_types_series)
+  expense_subtype_labels, expense_subtype_portions = portions_and_labels(expense_subtypes_series, multi_col=False)
 
+  display_pie(labels=creditor_labels, portions=creditor_portions, title=f" Creditors: {first_date} to {last_date[4:]}")
+  display_pie(labels=expense_type_labels, portions=expense_type_portions, title=f"Expense Types: {first_date} to {last_date[4:]}")
+  display_pie(labels=expense_subtype_labels, portions=expense_subtype_portions, title=f"Expense Subtypes: {first_date} to {last_date[4:]}")
+
+  ###################################### 
+  creditors_series["End_Date"] = last_date
+  creditors_df = series_to_df(creditors_series)
+
+  expense_types_series["End_Date"] = last_date
+  expense_types_df = series_to_df(expense_types_series)
+
+  expense_subtypes_series["End_Date"] = last_date
+  expense_subtypes_df = series_to_df(expense_subtypes_series)
 
   return {
-    # "first_date":first_date, #needed?
     "last_date":last_date,
     "creditors": creditors_df,
     "expense_types": expense_types_df,

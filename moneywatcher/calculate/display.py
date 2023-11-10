@@ -142,7 +142,7 @@ def display_total_v_time(dataframe, show=True):
 #####################################################################################
 def display_pie(labels, portions, title, radius=1, min_percentage=1):
   N = len(portions)
-
+  # print(portions)
   total = sum(portions)
 
   # Filter out portions and labels with percentages less than min_percentage
@@ -157,7 +157,7 @@ def display_pie(labels, portions, title, radius=1, min_percentage=1):
       autopct_labels.append('')
 
   explode = np.ones(N)*0.1
-  fig, ax = plt.subplots() 
+  fig, ax = plt.subplots(figsize=(15, 5)) 
   shadow={'ox': -0.04, 'edgecolor': 'none', 'shade': 0.5}
   ax.pie(portions, labels=labels, autopct='%1.1f%%', shadow=shadow, radius=radius, explode=explode)
   
