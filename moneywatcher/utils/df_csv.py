@@ -28,7 +28,7 @@ def find_file(start_directory, filename):
       
   # print(f"The file '{filename}' was not found in any directory under '{start_directory}'.")
   return None
-
+################################################################
 def load_or_create_df(data_dir, filename, func, input_df):
   
   sub_dir = "tables/"+func.__name__+"/"
@@ -52,3 +52,28 @@ def load_or_create_df(data_dir, filename, func, input_df):
     data = load_csv_to_df(file)
 
   return data
+
+################################################################
+def concat_dataframes(df1, df2):
+  # Step 1: Identify unique column names from both DataFrames
+  columns_df1 = set(df1.columns)
+  columns_df2 = set(df2.columns)
+
+  if(columns_df1 == columns_df2):
+    return pd.concat([df1, df2], ignore_index = True)
+
+  # Step 2: Create a new DataFrame with the union of unique column names
+  all_columns = list(columns_df1.union(columns_df2))
+  merged_df = pd.DataFrame(columns=all_columns)
+
+  # Step 3: Fill missing columns in each original DataFrame with 0s
+  for column in all_columns:
+    if column not in columns_df1:
+      df1[column] = 0
+    if column not in columns_df2:
+      df2[column] = 0
+
+  # Step 4: Concatenate the modified DataFrames
+  result_df = pd.concat([df1, df2], ignore_index=True)
+
+  return result_df

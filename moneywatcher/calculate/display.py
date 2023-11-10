@@ -156,11 +156,6 @@ def display_pie(labels, portions, title, radius=1, min_percentage=1):
     else:
       autopct_labels.append('')
 
-
-  # if not filtered_portions:
-  #   print(f"No portions greater than or equal to {min_percentage}% to display.")
-  #   return
-
   explode = np.ones(N)*0.1
   fig, ax = plt.subplots() 
   shadow={'ox': -0.04, 'edgecolor': 'none', 'shade': 0.5}
@@ -169,8 +164,18 @@ def display_pie(labels, portions, title, radius=1, min_percentage=1):
   # Shift the pie chart to the right
   plt.subplots_adjust(left=0.1, right=0.7, bottom=0.1, top=0.9)
 
-  # Add the legend to the bottom left using bbox_to_anchor
-  # plt.legend(bbox_to_anchor=(0, -0.1), loc="lower left")
-  
   ax.set(title=title)
+  plt.show()
+
+def plot_multilines(x, y_list, labels, xlabel, ylabel):
+  # Plot multiple lines on the same graph
+  for i in range(len(labels)):
+    plt.plot(x, y[i], label=labels[i])
+
+  # Add labels and legend
+  plt.xlabel(xlabel)
+  plt.ylabel(ylabel)
+  plt.legend()
+
+  # Show the plot
   plt.show()

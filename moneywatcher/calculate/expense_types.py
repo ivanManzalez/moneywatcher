@@ -3,7 +3,7 @@ from utils.list_csv import load_csv_to_list, save_list_to_csv
 def expenses():
   return [
     ("Food",["Fast", "Groceries", "Experience", "Liqs"]),
-    ("Transportation",["Gasoline", "Public Transit", "Uber", "Parking"]),
+    ("Transportation",["Gasoline", "Public Transit", "Uber", "Parking", "Maintenance"]),
     ("Utilities",["Housing", "Phone", "Storage", "Cleaning Supplies", "Insurance"]),
     ("Entertainment",["Video Streaming", "Music", "Event", "Game", "Art"]),
     ("Clothing",["Business", "Casual"]),
@@ -160,4 +160,5 @@ def determine_creditor_type(creditors):
   creditors["expense_type"] = expense_type_list
   creditors["expense_subtype"] = expense_subtype_list
   
+  print(creditors)
   return creditors 

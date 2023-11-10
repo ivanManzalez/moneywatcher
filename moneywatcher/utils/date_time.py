@@ -24,5 +24,5 @@ def get_first_last_date(df):
 
   # Get the first and last 'TRANS DATE' values
   first_date = df.iloc[0]['TRANS DATE'].strftime("%Y %b. %d")
-  last_date = df.iloc[-1]['TRANS DATE'].strftime("%b. %d")
+  last_date = df.iloc[-1]['TRANS DATE'].strftime("%Y %b. %d")
   return first_date, last_date
